@@ -1,0 +1,45 @@
+.sidebar {
+    width: 250px;
+    background-color: #1a1a1a;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .sidebar h2 {
+    margin: 0;
+    color: #eee;
+    font-size: 1.2rem;
+  }
+  
+  .sidebar input {
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    background-color: #333;
+    color: #ddd;
+  }
+  
+  .folder {
+    padding: 10px;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .folder:hover {
+    background-color: #3a3a3a;
+  }
+  
+  .new-chat {
+    margin-top: auto;
+    padding: 12px;
+    background-color: #00ff55;
+    color: black;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  

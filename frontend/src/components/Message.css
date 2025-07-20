@@ -1,0 +1,60 @@
+.message {
+  padding: 12px 16px;
+  border-radius: 18px;
+  max-width: 70%;
+  word-wrap: break-word;
+  line-height: 1.4;
+  font-size: 16px;
+}
+
+.message.user {
+  background: #007bff;
+  color: white;
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+.message.bot {
+  background: #f1f3f4;
+  color: #333;
+  align-self: flex-start;
+  margin-right: auto;
+}
+
+.message.user:first-child,
+.message.bot:first-child {
+  margin-top: 0;
+}
+
+.message.user:last-child,
+.message.bot:last-child {
+  margin-bottom: 0;
+} 
+/* Message.css */
+.message {
+  max-width: 70%;
+  padding: 10px 16px;
+  border-radius: 16px;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.message.user {
+  background-color: #005500;
+  align-self: flex-end;
+  color: #ccffcc;
+}
+
+.message.bot {
+  background-color: #2c2c2c;
+  align-self: flex-start;
+  border-left: 4px solid #00ff00;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.message {
+  animation: fadeIn 0.3s ease-out;
+}
